@@ -7,6 +7,8 @@ using Microsoft.Bot.Builder;
 using Microsoft.Bot.Schema;
 using Microsoft.Extensions.Logging;
 
+using env = System.Environment;
+
 namespace Microsoft.BotBuilderSamples
 {
     /// <summary>
@@ -76,7 +78,7 @@ namespace Microsoft.BotBuilderSamples
                 await _accessors.ConversationState.SaveChangesAsync(turnContext);
 
                 // Echo back to the user whatever they typed.
-                var responseMessage = $"Turn {state.TurnCount}: You sent '{turnContext.Activity.Text}'\n";
+                var responseMessage = $"Turn {state.TurnCount}: You sent me '{turnContext.Activity.Text}'{env.NewLine}";
                 await turnContext.SendActivityAsync(responseMessage);
             }
             else
