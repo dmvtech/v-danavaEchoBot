@@ -1,0 +1,7 @@
+*.dll
+*.pdb
+/.vs/EchoBotWithCounter/v15/Server/sqlite3
+/.vs
+/bin/Release/netcoreapp2.0
+/obj
+/runtimes

@@ -1,0 +1,52 @@
+{
+  "name": "v-danavaEchoBot",
+  "padlock": "zDwZWJhM8of7LeHu6O805g==!JSUSzrP2UfoX1u/uGqeXRMGpXduVNRHdtUIFzZDzCbv6gvcNkIgYkQy8/QnXsEey",
+  "version": "2.0",
+  "services": [
+    {
+      "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+      "subscriptionId": "0389857f-2464-451b-ac83-5f54d565b1a7",
+      "resourceGroup": "v-danavaRG1",
+      "serviceName": "v-danavaEchoBot",
+      "type": "abs",
+      "name": "v-danavaEchoBot",
+      "id": "1"
+    },
+    {
+      "connectionString": "oRdKowzlUeZ95Cv5RvTtwg==!7EDBeEEjwUsQ4Er2ZDMnLoMTDD+O4MzYnk1l/XcQwpOa/NNLYW8cbUXnobpRmA+aP9Ym7LKt0SrIQXMuTZ10TsZkyLCtwQ0P5u5on6Vmu9v+grbp/xuJXDkT1aM2tGistltmcST1p1YoR0SzhtM36yVkHR93DP8J0dj/veEddiLfkhuiQBmI17iM3NUto8qhiKvwdEgF9mh8uRf0NYtWbw==",
+      "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+      "subscriptionId": "0389857f-2464-451b-ac83-5f54d565b1a7",
+      "resourceGroup": "v-danavaRG1",
+      "serviceName": "vdanavaechobot",
+      "type": "blob",
+      "id": "2"
+    },
+    {
+      "appId": "",
+      "appPassword": "",
+      "endpoint": "http://localhost:3978/api/messages",
+      "type": "endpoint",
+      "name": "development",
+      "id": "3"
+    },
+    {
+      "appId": "899cc49f-b9ca-4622-8b7e-a6026979235f",
+      "appPassword": "4MLqgTge0oFNdlgCuQlT6Q==!RK4zNKS8TNB9FteA8zHfULd96urbW0ekb63mhMMq/sA=",
+      "endpoint": "https://v-danavaechobot.azurewebsites.net/api/messages",
+      "type": "endpoint",
+      "name": "production",
+      "id": "4"
+    },
+    {
+      "instrumentationKey": "q4JWOplP8WcveLvQkxiPgg==!LvH2gimDZ+6Y4s2r3BSZPofQf7reX4+xCl2FLsBV704fhZaCYIHgAQ0DZl3wsWmz",
+      "applicationId": "35ef4da0-a718-462e-b9b5-ec7448a7067e",
+      "apiKeys": {},
+      "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+      "subscriptionId": "0389857f-2464-451b-ac83-5f54d565b1a7",
+      "resourceGroup": "v-danavaRG1",
+      "serviceName": "v-danavaEchoBotndjnbu",
+      "type": "appInsights",
+      "id": "5"
+    }
+  ]
+}
